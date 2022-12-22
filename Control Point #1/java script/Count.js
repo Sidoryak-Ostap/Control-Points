@@ -5,7 +5,7 @@ const counters = document.querySelectorAll('.staitistics_item_counter');
 const statistics = document.querySelector('.statistics');
 work = true;
 
-document.addEventListener('scroll', () =>{
+document.addEventListener('scroll', () =>{s
     let scrollY=window.scrollY;
     let statisticsOffsetTop = statistics.offsetTop-300;
 
